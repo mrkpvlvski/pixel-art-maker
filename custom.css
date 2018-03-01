@@ -1,0 +1,85 @@
+* {
+  margin: 0px;
+  padding: 0;
+  font-size: 0;
+}
+
+main {
+  background-color: rgba(0,0,0,0.15);
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  height:100vh;
+}
+
+main container {
+  display: block;
+  width:800px;
+  height: 600px;
+  align-self:center;
+  align-content: left;
+  background-color: black;
+}
+
+.row {
+  display: block;
+}
+
+.square {
+  display: inline-block;
+  background-color: rgba(255,255,255,0.5);
+  width:20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.square:hover {
+  background-color: rgba(255,255,255,0.7);
+}
+
+main section {
+  display: block;
+  width:100px;
+  height: 600px;
+  align-self:center;
+  align-content: center;
+  background-color: rgba(0,0,0,0.1);
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  cursor: auto;
+}
+
+main section div {
+  display: block;
+  width:60px;
+  height: 60px;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 20px;
+  background-color: rgba(0,0,0,0.1);
+  cursor: pointer;
+}
+
+main section div:nth-of-type(1) {
+  background-color: red;
+}
+main section div:nth-of-type(2) {
+  background-color: green;
+}
+main section div:nth-of-type(3) {
+  background-color: blue;
+}
+main section div:nth-of-type(4) {
+  background-color: white;
+}
+main section div:nth-of-type(5) {
+  background-color: black;
+}
+main section div:last-of-type {
+  margin-top:100px;
+  border-radius: 35px;
+  width: 70px;
+  height: 70px;
+  background-color: white;
+
+}
